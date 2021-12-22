@@ -1,0 +1,117 @@
+@media screen and (max-width:768px){
+    main .first h1{
+        font-size: 34px !important;
+        text-align: center
+    }
+    main .first article div .ambition{
+        text-align: center;
+        font-size: 12px;
+    }
+    main .first   article div p{
+        font-size: 14px !important;
+        font-weight: 300;
+        text-align: center;   
+    }
+    main .second .left .info .paragraph{
+        width: 150px !important;
+        margin: 0px auto;
+    }
+    main .second .left .info .paragraph  p{
+        font-size: 10px;
+    }
+    .third section article{
+        grid-template-columns:1fr  !important;
+        row-gap: 10px;
+    }
+    .third {
+            height: 1500px;
+    }
+    footer{
+        grid-template-columns: 1fr;
+        height: 1180px;
+
+    }
+    footer .footer_second {
+        display: grid;
+        place-items: center;
+
+    }
+    footer .footer_second section div input{
+        width: 260px;
+        height: 30px;
+    }
+    .aside_second section{
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 4px;
+        column-gap: 30px;
+    
+    }
+    .service_main{
+        height: 1500px;
+    }
+    .aside_second article {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        
+    }
+    .blog_main .blogCard{
+        width: 400px;
+        grid-template-columns: 1fr;
+        
+    }
+    .blog_main .tomargin{
+        margin-top: 550px;
+    }
+    .blog_main{
+        height: 1900px;
+    }
+    
+
+@media screen and (max-width:928px) and (min-width:710px){
+    /* style goes here */
+    footer .footer_second section div input{
+        width: 240px;
+        height: 30px;
+    }
+    .third section .card{
+        width: 228px;
+        height: 385px;
+        border: 7px solid black;
+        background-color: transparent;
+    }
+    .thirdCard .card_info h3{
+        font-size: 15px;
+    }
+    .third section article .card .card_info p{
+        margin-bottom: 0px;
+    }
+    .guides section article div{
+        width: 400px;
+        font-size: 18px;
+        
+    }
+    
+}
+}
+@media screen and (max-width:1024px) and (min-width:710px){
+    .aside_second article {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        
+    }
+    .blog_main .blogCard{
+        width: 400px;
+        grid-template-columns: 1fr;
+        
+    }
+    .blog_main .tomargin{
+        margin-top: 550px;
+    }
+    .blog_main{
+        height: 1900px;
+    }
+}

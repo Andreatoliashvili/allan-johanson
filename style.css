@@ -1,0 +1,605 @@
+@import url(//db.onlinewebfonts.com/c/ebb6d1e1e9255ac9ac77ce9793f6676d?family=Lulo+Clean);
+body{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+    /**
+    main
+font-family: 'Lato', sans-serif;
+    side
+font-family: 'Secular One', sans-serif;
+ 
+ #317F81 
+
+ <section>
+          <article>
+            <div>
+            <p c>AMBITION IS THE FIRST STEP TOWARDS</p>
+            <h1>SUCCESS</h1>
+            <p>Now Available for Online Coaching</p>
+          </div>
+          </article>
+      </section>
+
+
+      <a class="navbar-brand" href="#"><span class="josh">Allan johanson</span><p class="life">Personal Life Coach</p>
+    **/
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Lulo Clean One';
+}
+.navbar {
+    
+    height: 100px;
+    background: white !important;
+    
+}
+ header section{
+    width: 70%;
+    margin: 10px auto;
+    
+}
+header ul li a:hover{
+    color: aquamarine !important;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex;
+    flex-direction: row-reverse !important;
+}
+.josh{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.pers{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+main .first{
+    background-image: url(https://static.wixstatic.com/media/11062b_9de2dbff3dda403b944bb98c41cb5764f000.jpg/v1/fill/w_1122,h_912,al_c,q_85,usm_0.33_1.00_0.00/11062b_9de2dbff3dda403b944bb98c41cb5764f000.webp);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+}
+main .first article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .first article div p{
+    text-align: center;
+}
+main .first article div .ambition{
+    font-size: 16px;
+   font-family: 'Secular One', sans-serif;
+    
+    letter-spacing: 5px;
+    margin-top: 50px;
+
+}
+main .first article div h1{
+   
+    font-size: 110px;
+   font-family: 'Secular One', sans-serif;
+    font-weight: 700;
+    letter-spacing: 22px;
+}
+main .first article div .now{
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 5px;
+
+}
+main .first article div .book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .first article div .book a{
+    text-decoration: none;
+}
+main .first article div .book button {
+    width: 129px;
+    height: 40px;
+    background-color: black;
+    transition: 0.5s;
+}
+main .first article div .book button:hover{
+    background-color: white;
+    color: black;
+    
+}
+main .first article div .book button {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+main .second{
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+
+}
+main .second .right{
+    background-image: url(https://static.wixstatic.com/media/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.jpg/v1/fill/w_644,h_895,al_c,q_85,usm_0.66_1.00_0.01/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+main .second .left {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 20px;
+}
+main .second .left .info{
+    width: 460px;
+    
+} 
+main .second .left .info .about{
+    margin-bottom: 0px;
+}
+main .second .left .info .me{
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+main .second .left .info h1{
+   font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    
+}
+main .second .left .info .paragraph {
+    width: 350px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    
+}
+main .second .left .info .second_button_div{
+    margin-top: 50px;
+}
+main .second .left .info .second_button_div .second_button{
+    width: 129px;
+    height: 40px;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: white;
+    transition: 0.5s;
+
+}
+main .second .left .info .second_button_div .second_button:hover{
+    color: black;
+    background-color: white;
+  
+}
+.third{
+    background-image: url(https://static.wixstatic.com/media/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg/v1/fill/w_1225,h_893,al_c,q_85,usm_0.66_1.00_0.01/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
+    width: 100%;
+}
+.third h1{
+    text-transform: uppercase;
+   font-family: 'Secular One', sans-serif;
+    font-weight: 800;
+   
+}
+.third .for_center{
+    padding-top: 30px;
+    display: flex;
+    justify-content:center ;
+}
+.third .til h1{
+    text-align: center;
+}
+.third section{
+    display: flex;
+    justify-content: center;   
+    padding-top: 0px;
+}
+
+.third section article{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 40px;
+    padding-top: 20px;
+    
+}
+.third section .card{
+    width: 278px;
+    height: 385px;
+    border: 7px solid black;
+    background-color: transparent;
+}
+.third section article .card .card_info{
+    margin: 25px;
+  
+}
+.third section article .card .card_info h3{
+    text-align: center;
+   font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
+    margin-top: 0px;
+}
+.online{
+    margin-bottom: 0px;
+}
+.third section article .card .card_info p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.third section article .card .card_info .card_info_else{
+    border-top: black 2px solid ;
+    padding-top: 15px;
+}
+.third section article .card .card_info .card_info_else .second_button_div .second_button{
+    width: 129px;
+    height: 40px;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: white;
+    transition: 0.5s;
+
+}
+.third section article .card .card_info .card_info_else .second_button_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.third section article .card .card_info .card_info_else .second_button_div .second_button:hover{
+    color: black;
+    background-color: white;
+}
+ .thirdCard .card_info h3{
+    font-size: 20px;
+}
+.thirdCard .card_info div p{
+    margin-bottom: 11.5px;
+}
+.third section  .service{
+    margin-top: 80px;   
+}
+.third  .second_button_div a .second_button{
+    margin-top: 40px;
+    width: 189px;
+    height: 40px;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+ 
+
+}
+.third section article .service{
+    width: 100%;
+}
+.second_button_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    height: 624px;
+    background-color: #57BBBF;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+footer .footer_first,.footer_second{
+    
+  
+    height: 100%;
+}
+footer section{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    width: 400px;
+    height: 100%;
+}
+footer section article{
+    width: 200px;
+   
+ 
+    
+}
+footer section article h1{
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-bottom: 34px;
+    text-transform: uppercase ;
+    font-family: 'Secular One', sans-serif;
+    margin-top: 50px;
+}
+footer section article .footer_paragraph p{
+    font-size: 15px;
+
+}
+footer section article .footer_paragraph{
+    margin-bottom: 40px;
+}
+footer section article .footer_links  {
+    margin-bottom: 20px;
+}
+footer .footer_second section {
+    float: left;
+    height: 400px;
+    margin-top: 60px;
+}
+footer .footer_second section div p {
+    margin-bottom: 0px;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    
+}
+footer .footer_second section div input{
+    width: 442px;
+    height: 25px;
+    margin: 0px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+footer .footer_second section  {
+    display: grid;
+    grid-template-rows: repeat(4,25%);
+
+}
+footer .footer_second section div .massage {
+    height: 133px;
+}
+.service_main {
+    background-image: url(https://static.wixstatic.com/media/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg/v1/fill/w_1225,h_893,al_c,q_85,usm_0.66_1.00_0.01/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.servce_section{
+    display: flex;
+    justify-content: center;
+}
+
+ .service_section .service_article .aside_first{
+     margin-top: 50px;
+ 
+    height: 200px;
+}
+.service_section .service_article .aside_first h1{
+    font-family: 'Secular One', sans-serif;
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.serviceCard{
+    background-color: white;
+    width: 283px;
+    height: 314px;
+}
+.serviceCard p{
+    text-align: center;
+    margin: 0px;
+}
+.aside_first{
+    display: flex;
+    align-items: flex-start;
+}
+.serviceCard .hr{
+    margin: 20px 0px 20px 0px;
+}
+.serviceCard .title{
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-top: 20px;
+}
+.serviceCard .second_button_div .second_button{
+    width: 129px;
+    height: 40px;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: white;
+    transition: 0.5s;
+    margin-top: 50px;
+}
+.serviceCard .second_button_div .second_button:hover{
+    background-color: white;
+    color: black;
+}
+.aside_second section{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+
+}
+.aside_second article {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    
+}
+.aside_second article div{
+    width: 200px;
+    margin-bottom: 50px;
+}
+.aside_second article div p{
+    text-align: center;
+   
+    margin-bottom: 0px;
+    padding-bottom: 4px;
+    
+}
+.active_p{
+    border-bottom: 3px solid #296569;
+}
+.passive_p{
+    border-bottom: 1px solid #296569;
+
+}
+.blog_main{
+    height: 1220px;
+}
+.blog_main article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-image: url(https://static.wixstatic.com/media/84770f_62bea82dec60407d81320c967a003c1f~mv2_d_5468_2742_s_4_2.jpg/v1/fill/w_1519,h_548,al_c,q_85,usm_0.66_1.00_0.01/84770f_62bea82dec60407d81320c967a003c1f~mv2_d_5468_2742_s_4_2.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 120px;
+
+}
+.blog_main article section .bottom_skip {
+    text-align: center;
+}
+.blog_main article section h1{
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+.blog_main article section .thoughts{
+    margin-top: 150px;
+}
+.blog_main article section{
+    margin-top: 500px;
+    display: grid;
+}
+.blog_main .blogCard .left img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.blog_main .blogCard{
+    width: 1100px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog_main .blogCard .right{
+background-color: white;
+padding: 20px;
+}
+.blog_main .blogCard .right p{
+    font-size: 18px;
+}
+.blog_main .blogCard .right .card_top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.blog_main .blogCard .right .card_top .wrap{
+    display: flex;
+    align-items: center;
+}
+.blog_main .blogCard .right .card_top .wrap  .left i{
+    font-size: 32px;
+}
+.blog_main .blogCard .right .card_top .wrap   .right_user{
+    margin-left: 5px;
+}
+.blog_main .blogCard .right .card_top .wrap   .right_user p,span{
+    margin: 0px;
+    font-size: 12px;
+}
+.blog_main .blogCard .right h1{
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.blog_main .blogCard .bottom_card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.blog_main .blogCard .bottom_card .comment_left{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.blog_main .blogCard .bottom_card .comment_right span{
+    font-size: 16px;
+}
+.blog_main .blogCard .bottom_card .comment_right  i{
+    color: red;
+    margin-left: 2px;
+    
+}
+.blog_main .blogCard .bottom_card {
+    border-top: solid black 1px;
+    padding-top: 10px;
+}
+.guides{
+    background-image: url(https://static.wixstatic.com/media/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg/v1/fill/w_1225,h_893,al_c,q_85,usm_0.66_1.00_0.01/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
+    width: 100%;
+}
+.guides section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.guides section article h1{
+    margin-top: 50px;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.guides section article div{
+    width: 600px;
+    font-size: 18px;
+    
+}
+
+
+
